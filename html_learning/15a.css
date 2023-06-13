@@ -1,0 +1,85 @@
+body {
+    height: 3000px;
+}
+
+.x
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    left: -10px;
+    top: -15px;
+
+}
+
+.div
+{
+   
+   
+    
+    position: relative;
+    display: inline-block;
+    background-color: rgba(75, 75, 75, 0.156);
+}
+
+.time
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+}
+
+.suit
+{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ads
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    right: 0px;
+    top: 10px;
+    font-family: arial;
+
+}
+
+.down
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    background-color: rgba(255, 255, 255, 0.45);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

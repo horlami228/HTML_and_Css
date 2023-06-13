@@ -1,0 +1,104 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.profile_img
+{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.upper_layout
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+
+}
+
+.image_side
+{
+    margin-right: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.first_box
+{
+    display: flex;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.text_side{
+    width: 400px;
+    
+   
+
+    
+}
+
+.text1
+{
+    margin-right: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text_link
+{
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+}
+.bottom_text
+{
+    line-height: 20px;
+}
+
+.lower_layout
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow:hidden;
+    width: 420px;
+    margin-left: 70px;
+}
+
+.black_area
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(101, 101, 101, 0.344);
+    
+   
+}
+
+.text_area
+{
+ flex: 1;
+ margin-left: 13px;
+    
+}
+
+.youtube_link
+{
+    color: rgb(126, 125, 125);
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+}
+
+.line_text
+{
+    font-weight: bold;
+    line-height: 22px;
+}

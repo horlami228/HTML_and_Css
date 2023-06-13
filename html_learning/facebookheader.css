@@ -1,0 +1,49 @@
+.header
+{
+    width: 800px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+ 
+}
+
+.image
+{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.profile_name
+{
+    margin-left: 10px;
+}
+
+.right_side
+{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+body{
+    height: 3000px;
+}

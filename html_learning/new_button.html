@@ -1,0 +1,45 @@
+<style>
+    .stretch {
+        color: white;
+        background-color: green;
+        border: none;
+        font-size: medium;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+        transition: padding-left 1s, padding-top 1s, padding-right 1s, padding-bottom 1s;
+    }
+
+    .stretch:hover{
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+
+    .shadow{
+        color: white;
+        background-color: green;
+        border: none;
+        font-size: medium;
+        padding-left: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 16px;
+        box-shadow: 5px 5px 0.5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+
+    }
+
+    .shadow:active{
+       margin-top: 3px;
+       margin-left: 3px;
+       box-shadow: none;
+    }
+</style>
+
+<button class="stretch">Stretch to right size</button>
+
+<button class="shadow">Shadow</button>

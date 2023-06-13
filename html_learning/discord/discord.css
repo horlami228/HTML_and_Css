@@ -1,0 +1,54 @@
+body
+{
+    height: 3000px;
+    
+
+}
+
+p
+{
+    margin: 0;
+}
+
+.image_sidebar
+{
+    background-color: rgb(42, 41, 41);
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.profiles_img
+{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+    padding-bottom: 10px;
+}
+
+
+
+.profile_info
+{
+    background-color: rgb(55, 55, 55);
+    position: fixed;
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
